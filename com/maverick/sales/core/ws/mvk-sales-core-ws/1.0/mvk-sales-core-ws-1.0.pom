@@ -13,7 +13,6 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <resourcesPath>src/main/resources</resourcesPath>
-        <testResourcesPath>src/test/resources</testResourcesPath>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <log4j.version>2.8.2</log4j.version>
@@ -138,7 +137,7 @@
                 </plugins>
                 <resources>
                     <resource>
-                        <directory>${testResourcesPath}</directory>
+                        <directory>${resourcesPath}</directory>
                         <filtering>true</filtering>
                         <includes>
                             <include>**/*.properties</include>
