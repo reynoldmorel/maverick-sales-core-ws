@@ -11,7 +11,9 @@
     <name>maverick-sales-core-ws</name>
     <modules>
         <module>mvk-sales-ear</module>
-        <module>mvk-sales-core-ws</module>
+        <module>mvk-sales-core-ws-server</module>
+        <module>mvk-sales-core-ws-client</module>
+        <module>mvk-sales-core-ws-model</module>
     </modules>
     <profiles>
         <profile>

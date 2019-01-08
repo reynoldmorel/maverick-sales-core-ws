@@ -71,7 +71,19 @@
     <dependencies>
         <dependency>
             <groupId>com.maverick.sales.core.ws</groupId>
-            <artifactId>mvk-sales-core-ws</artifactId>
+            <artifactId>mvk-sales-core-ws-server</artifactId>
+            <version>1.0</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.maverick.sales.core.ws</groupId>
+            <artifactId>mvk-sales-core-ws-client</artifactId>
+            <version>1.0</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.maverick.sales.core.ws</groupId>
+            <artifactId>mvk-sales-core-ws-model</artifactId>
             <version>1.0</version>
             <type>jar</type>
         </dependency>
